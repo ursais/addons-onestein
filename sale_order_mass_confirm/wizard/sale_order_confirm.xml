@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <form string="Confirm Sale Orders">
                 <footer>
-                    <button name="confirm_sale_orders" string="Confirm" type="object" class="oe_highlight"/>
+                    <button name="confirm_sale_orders" string="Confirm" type="object" class="oe_highlight" context="{'so_mass_confirm': True}"/>
                     or
                     <button string="Cancel" class="oe_link" special="cancel" />
                 </footer>
